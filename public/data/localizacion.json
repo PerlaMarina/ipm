@@ -1,0 +1,13 @@
+[
+    {
+        "id": "1",
+        "name": "interior",
+        "description": "interior"        
+    },
+	{
+        "id": "2",
+        "name": "exterior",
+        "description": "exterior"        
+    }
+
+]

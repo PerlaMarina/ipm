@@ -1,0 +1,37 @@
+Sistema MIP
+
+Deploy to server. 
+
+Primera vez. configuracion del servidor
+    Mcrypt PHP
+    permisos a www-data en app/storage
+    configurar Apache para que apunte a https://mip.melix.mx/public/
+    apuntar en el hots de app config database.php a '/var/run/postgresql',
+
+    
+    
+Prerequisitos
+Crear base de datos en postgresql con nombre "mip".
+    meeQui3a
+crear un directorio con los privilegios en /srv/var/www/mip
+Crear un sitio web en Apache, apuntando al directorio anterior.
+
+Subir los archivos rsync
+rsync -avz --exclude='.git/' GitRepo/ ricardo@melix.mx:/home/ricardo/MIP/
+excluir documentacion, base de datos, etc.
+
+dentro del servidor por SSH
+    Andes de copiar a la ruta de publicacion de apache, ejemplo en /srv/www
+        excluir ..app/config/app.php
+        excluir app/config/database.php
+        rsync -avz  --exclude='*.app.php' --exclude='*.database.php' MIP/mip/ /srv/www/mip.melix.mx/
+
+    quitar carpetar de Documentacion, Base de Datos, tar.g.z, etc todo que no sea codigo.
+    configurac conexion de base de datos.
+    modo debug = false. en ..app/config/app.php
+        
+    
+    
+    
+    
+        

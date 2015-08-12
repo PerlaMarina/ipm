@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "name": "Cebadero + rodenticida",
+        "description": "Cebadero + rodenticida" 
+    },
+	{
+        "id": "2",
+        "name": "Cebadero  + goma",
+        "description": "Cebadero  + goma"        
+    },
+	{
+        "id": "3",
+        "name": "Cebadero + trampa mecanica",
+        "description": "Cebadero + trampa mecanica"        
+    }
+]

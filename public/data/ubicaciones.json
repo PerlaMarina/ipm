@@ -1,0 +1,14 @@
+[
+    {
+        "idubicacion": "1",
+        "Description": "juzgado familiar 1"        
+    },
+	{
+        "idubicacion": "2",
+        "Description": "juzgado familiar 2"        
+    },
+	{
+        "idubicacion": "3",
+        "Description": "juzgado familiar 3"        
+    }
+]

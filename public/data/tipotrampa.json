@@ -1,0 +1,128 @@
+[  
+    {  
+      "id":"1",
+      "name":"Cebadero",
+      "description":"Cebadero",
+      "localizaciones":[  
+         {  
+            "id":"1",
+            "name":"exterior"
+         }
+      ],
+      "clasificaciones":[  
+         {  
+            "id":"1",
+            "name":"Cebadero + rodenticida"
+         },
+         {  
+            "id":"2",
+            "name":"Cebadero + goma"
+         },
+         {  
+            "id":"3",
+            "name":"Cebadero + trampa mecanica"
+         }
+      ]
+   },    
+    {  
+      "id":"2",
+      "name":"Mecanica",
+      "description":"Mecanica",
+      "localizaciones":[  
+         {  
+            "id":"1",
+            "name":"interior"
+         },
+         {  
+            "id":"2",
+            "name":"exterior"
+         }
+      ],
+      "clasificaciones":[  
+         {  
+            "id":"1",
+            "name":"Mecanica + sola"
+         },         
+         {  
+            "id":"2",
+            "name":"Mecanica + goma"
+         }
+      ]
+    },
+    {  
+      "id":"3",
+      "name":"Tampa con Goma",
+      "description":"Tampa con Goma",
+      "localizaciones":[  
+         {  
+            "id":"1",
+            "name":"interior"
+         },
+         {  
+            "id":"2",
+            "name":"exterior"
+         }
+      ],
+      "clasificaciones":[  
+         {  
+            "id":"1",
+            "name":"Goma Sola"
+         }         
+      ]
+   },
+    {  
+      "id":"4",
+      "name":"Equipo de Luz",
+      "description":"Equipo de Luz",
+      "localizaciones":[  
+         {  
+            "id":"1",
+            "name":"interior"
+         },
+        {  
+            "id":"2",
+            "name":"exterior"
+        }         
+      ],
+      "clasificaciones":[  
+         {  
+            "id":"1",
+            "name":"Dispositivo con Goma"
+         },
+          {  
+            "id":"2",
+            "name":"Dispositivo Electrocutor"
+          }
+      ]
+    },
+    {  
+      "id":"5",
+      "name":"Foromona",
+      "description":"Feromona",
+      "localizaciones":[  
+         {  
+            "id":"1",
+            "name":"interior"
+         },
+         {  
+            "id":"2",
+            "name":"exterior"
+         }      
+      ],
+      "clasificaciones":[  
+         {  
+            "id":"1",
+            "name":"Foromona Goma"
+         },
+         {  
+            "id":"2",
+            "name":"Foromona Gel"
+         },
+         {  
+            "id":"3",
+            "name":"Foromona Mecanica"
+         }         
+          
+      ]
+   }
+]

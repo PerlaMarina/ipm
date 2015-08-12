@@ -1,0 +1,6 @@
+
+implemantacion de side-menu 
+basado en este ejemplo: http://bootsnipp.com/snippets/featured/nav-sidebar-with-toggle-button
+1. se agrega codigo css, se tiene que agregar lineas de estilo en main.css
+2. se agrega un codigo js, desde un archivo externo sidemenu.js , dentro de graficas.blade.js
+3. se agrega codigo html, en la seccion de #sidemenu definida como parte del layout
